@@ -1,0 +1,308 @@
+@font-face {
+  font-family: 'vs_category_icons';
+  src: url("https://assets.viralstyle.com/fonts/vs-category-2016-11-29-16-15.eot");
+  src: url("https://assets.viralstyle.com/fonts/vs-category-2016-11-29-16-15.eot?#iefix") format("embedded-opentype"), url("https://assets.viralstyle.com/fonts/vs-category-2016-11-29-16-15.woff") format("woff"), url("https://assets.viralstyle.com/fonts/vs-category-2016-11-29-16-15.ttf") format("truetype"), url("https://assets.viralstyle.com/fonts/vs-category-2016-11-29-16-15.svg#vs-category-2016-06-01-06-00") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Frame */
+/* Pages */
+/* Controls */
+/* Scrollbar */
+@font-face {
+  font-family: 'amble';
+  src: url("http://karenmenezes.com/font-amble/Amble-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/*------------------------------
+----------- Global -------------
+-------------------------------*/
+[class*='icon-']:before {
+  display: inline-block;
+  font-family: 'vs_category_icons';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-category_alloverprint:before {
+  content: '\0041'; }
+
+.icon-category_hats:before {
+  content: '\0042'; }
+
+.icon-category_hoodie:before {
+  content: '\0043'; }
+
+.icon-category_jewelry:before {
+  content: '\0044'; }
+
+.icon-category_kids:before {
+  content: '\0045'; }
+
+.icon-category_ladiestees:before {
+  content: '\0046'; }
+
+.icon-category_longsleeve:before {
+  content: '\0047'; }
+
+.icon-category_mugs:before {
+  content: '\0048'; }
+
+.icon-category_phonecases:before {
+  content: '\0049'; }
+
+.icon-category_shortsleeve:before {
+  content: '\004a'; }
+
+.icon-category_tanktops:before {
+  content: '\004b'; }
+
+.icon-category_vnecks:before {
+  content: '\004c'; }
+
+.icon-create_and_buyorsell_05:before {
+  content: '\004d'; }
+
+.icon-create_and_buyorsell_06:before {
+  content: '\004e'; }
+
+.icon-laptop-sleeve:before {
+  content: '\004f'; }
+
+.icon-footwear:before {
+  content: '\0050'; }
+
+.icon-clock:before {
+  content: '\0051'; }
+
+.frame {
+  height: 100px;
+  line-height: 100px;
+  overflow: hidden;
+  border-bottom: 1px solid #e0e1e2; }
+  .frame ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 50px; }
+    .frame ul li {
+      float: left;
+      width: 100px;
+      height: 100%;
+      margin: 0 1px 0 0;
+      padding: 0;
+      background: #fff;
+      color: #2e3641;
+      text-align: center;
+      cursor: pointer;
+      border-right: 1px dotted #2e3641; }
+    .frame ul li.active {
+      color: #fff;
+      background: #24baa5; }
+
+#verticalProductSlider > ul {
+  padding-left: 0; }
+  #verticalProductSlider > ul li {
+    margin: 15px 5px; }
+
+.wrap2 {
+  position: relative;
+  float: left;
+  min-width: 100%; }
+  .wrap2:nth-child(2n) {
+    margin-right: 0; }
+
+.frame2 {
+  width: 97%;
+  height: 590px;
+  overflow: hidden; }
+
+.pages {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+  text-align: center; }
+  .pages li {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 4px;
+    text-indent: -999px;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2); }
+    .pages li:hover {
+      background: #aaa; }
+  .pages li.active {
+    background: #666; }
+
+.controls {
+  margin: 25px 0;
+  text-align: center; }
+
+.scrollbar {
+  position: absolute;
+  top: 40px;
+  right: 5px;
+  width: 5px;
+  height: 530px;
+  background: #ccc;
+  line-height: 0; }
+  .scrollbar .handle {
+    width: 100%;
+    height: 100px;
+    background: #292a33;
+    cursor: pointer; }
+    .scrollbar .handle .mousearea {
+      position: absolute;
+      top: 0px;
+      left: -10px;
+      width: 22px;
+      height: 100%; }
+
+.border {
+  border: 1px solid red; }
+
+html {
+  font-size: 14px; }
+
+#home > div.ui.bottom.attached.segment.pushable {
+  margin: 0; }
+
+.teal.corner.eyedropper.icon {
+  font-size: 20px; }
+
+.basic.icon.button {
+  margin: 5px; }
+
+#main1 .content {
+  border-top: 1px solid #fff; }
+  #main1 .content:first-child {
+    border-top: none; }
+  #main1 .content:last-child {
+    border-bottom: 1px solid #fff; }
+  #main1 .content:hover {
+    background-color: #24baa5; }
+
+#main1 img {
+  margin: 0 auto;
+  max-width: 100px; }
+
+.thumbnail {
+  border-right: 2px solid #e8e8e8; }
+
+ul {
+  list-style-type: none; }
+
+.form-group {
+  margin: 0px 5px 15px; }
+
+.list-colors {
+  line-height: normal;
+  padding: 0 1%;
+  margin: 0 0 0 5px; }
+  .list-colors .bg-colors {
+    height: 14px;
+    margin: 1px 1px;
+    width: 14px; }
+
+.bg-colors {
+  border: 1px solid #CCC;
+  cursor: pointer;
+  float: left;
+  height: 16px;
+  margin-right: 6px;
+  width: 16px; }
+
+.color-picker {
+  margin: 10px auto;
+  list-style: none;
+  display: inherit; }
+  .color-picker span {
+    margin: 2px; }
+
+.buttons.front-back-btn {
+  height: 35px;
+  margin-top: 5px; }
+
+img.ui.image {
+  margin: 0 auto !important; }
+
+.ui.attached.menu:not(.tabular) {
+  border-bottom: 0;
+  padding: 5px 0; }
+
+.ui.menu .item:before {
+  background: none; }
+
+.ui.menu a.item:hover {
+  background: none; }
+
+.ui.product.cards .ui.fluid.card {
+  padding: 5px; }
+
+.ui.product.cards .form-group {
+  margin: 0px -10px 18px; }
+
+.ui.product.cards h5 {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: -20px; }
+
+.ui.product.cards .ui.radio.checkbox {
+  margin-left: 15px; }
+
+.ui.product.cards hr {
+  border: 1px solid #e8e8e8; }
+
+.ui.product.cards table {
+  margin: 0 auto; }
+
+.remove-padding {
+  padding-left: 0 !important;
+  padding-top: 0 !important; }
+
+.remove-padding-left {
+  padding-left: 0 !important; }
+
+.slider {
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+.slider-nav {
+  background: none;
+  border: none;
+  outline: none;
+  height: 100px;
+  background-color: #E0E1E2;
+  width: 37px; }
+  .slider-nav:hover {
+    background-color: #E0E1E2; }
+
+.vertical.sidebar.menu.overlay.visible {
+  background: rgba(5, 5, 5, 0.8); }
+
+.prod-category i {
+  margin-top: 14px;
+  line-height: 0;
+  font-size: 50px;
+  min-width: 100%; }
+  .prod-category i label {
+    display: block;
+    font-family: amble;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 12px; }
+
+i.add-image-icon {
+  margin: 40px 0 20px;
+  color: #fff;
+  font-size: 40px; }
